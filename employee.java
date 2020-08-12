@@ -80,6 +80,9 @@ package javaprogramsstart;
         {
             return(salary*p1)/100+salary;
         }
+        String to_String(){
+        return "\nID: "+Id+"\nName: "+FirstName+LastName+"\nSALARY: "+Salary;
+    }
         
     }
     
